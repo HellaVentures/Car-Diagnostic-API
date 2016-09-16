@@ -7,7 +7,7 @@ market. This API can help you to assess the “health status” of a vehicle, by
 translating error codes from the onboard-diagnostic port (OBD) of a car into a
 cleartext format. All generic OBD2 error codes that can be read with the widely used ELM327
 chipset OBD dongles are supported. The dataset that we provide is professionally
-maintained by the car diagnostics specialist Hella Gutmann Solution. 
+maintained by the car diagnostics specialist Hella Gutmann Solution.
 The API itself is hosted on IBM Bluemix - you can get access to it under the following link:
 
 ???
@@ -28,7 +28,7 @@ parameters are passed to the API inside the URI. This API provides two main
 features:
 
 - Diagnostic Trouble Code (DTC) translation
-- Vehicle Identification Number (VIN) decoding. 
+- Vehicle Identification Number (VIN) decoding.
 
 The DTC translation is available on the `/dtc` endpoint. As an input you need to
 provide the 5-digit error code as it is returned from the OBD dongle (e.g.
@@ -55,7 +55,7 @@ TODO: reference swagger documentation
 - how to sign up to API usage (tokens etc.)
 - usage models (free, paid)
 
-## 4. Feedback
+## 4. Feedback and Support
 
 - where to file issues and feature requests about the API
 - where to file issues and feature requests about the Apps
