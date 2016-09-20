@@ -48,12 +48,11 @@ endpoint can be seen in following figure.
 
 ![Example call /vin](img/examplecall_vin.png)
 
-TODO: reference swagger documentation
-
 ## 3. Usage
 
-- how to sign up to API usage (tokens etc.)
-- usage models (free, paid)
+Once you have subscribed to this Service on IBM Bluemix, you will be redirected
+to the IBM developer portal. There will will find instructions on how to obtain
+login credentials for the API.
 
 ## 4. Feedback and Support
 
