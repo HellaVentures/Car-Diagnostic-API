@@ -57,5 +57,10 @@ TODO: reference swagger documentation
 
 ## 4. Feedback and Support
 
-- where to file issues and feature requests about the API
-- where to file issues and feature requests about the Apps
+If you want to file a bug report or make a feature request for the API, please
+use the issues section of this repo. For bug reports and feature request for the
+iOS and Android Apps, please use the issues sections in the corresponding repos.
+
+## 5. Legal Notice
+Please note that not all car makers are covered by this API. Moreover, some
+OEM-specific DTCs are covered by this API, but certainly not all of them.
