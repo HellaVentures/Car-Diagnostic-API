@@ -61,5 +61,9 @@ use the issues section of this repo. For bug reports and feature request for the
 iOS and Android Apps, please use the issues sections in the corresponding repos.
 
 ## 5. Legal Notice
+The terms and conditions for our service can be found in the
+[TERMS](https://github.com/HellaVentures/Car-Diagnostic-API/blob/master/TERMS) file of this
+repo.
+
 Please note that not all car makers are covered by this API. Moreover, some
 OEM-specific DTCs are covered by this API, but certainly not all of them.
