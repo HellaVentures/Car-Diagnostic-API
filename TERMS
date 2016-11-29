@@ -1,0 +1,203 @@
+Terms and Conditions of Use
+===========================
+
+
+1 General
+---------
+The Car Diagnostic API service offered by Hella KGaA Hueck & Co. ("Hella")
+translates error codes displayed by on-board diagnostic units of vehicles into
+human-readable information. A more detailed description of the service is
+available at https://github.com/HellaVentures/Car-Diagnostic-API
+
+
+2 Scope of application
+----------------------
+
+2.1 The use of the service and of the information, software and documentation
+made available through the Service (collectively "Service") is permitted
+exclusively in accordance with these general terms and conditions of use
+("TCs"). By beginning to use the Service, the user accepts that these TCs apply.
+The TCs shall also apply to all upgrades, updates and changes to the Service
+("Updates"), unless other terms have been agreed specifically for such Updates.
+These TCs shall apply exclusively to the relationship between Hella and the
+user; conflicting terms of the user or terms deviating from these TCs or
+statutory law shall not apply, even if Hella does not explicitly object to them.
+
+2.2 Hella may change these TCs at any time. Hella shall inform the user of such
+changes, allowing for a reasonable objection period. If the user does not object
+within such period and continues to use the Service, this shall constitute
+acceptance of the changes. Hella will inform the user of this consequence when
+it informs the user of the changes. If the user objects to the changes, Hella
+shall be entitled to terminate the agreement with the user established by these
+TCs and to exclude the user from using the Service.
+
+
+3 Licence
+---------
+
+3.1 For the term of this agreement Hella grants the user a simple,
+non-exclusive, non-transferable right to use the Service solely for the purposes
+set out in clause 1. Any other right of the user to use the Service is excluded,
+in particular any copying, changing, translating or other use that is not
+strictly required for the purposes set out in clause 1. The license does not
+include access to the source code of any software used in the Service, and any
+decompiling, disassembling, reverse-engineering of such software by the user is
+prohibited. The user's mandatory rights (e.g. under the German Copyright Act)
+shall remain unaffected from the restrictions in this clause 2.2.
+
+3.2 Certain parts of the software used to provide the Service may be open source
+software in which case the applicable open source license shall apply and
+prevail over the provisions of this clause 3. In these cases, Hella will make
+the object code or source code available to the user on request to the extent
+that this is required under the relevant open source licence. To the extent
+required by such open source license, the applicable terms are listed here
+https://github.com/HellaVentures/Car-Diagnostic-API/blob/master/LICENSE. By
+using the Service, the user accepts these open source licence terms.
+
+3.3 The information, software and documentation used in the Service are
+protected both by copyright laws and international copyright agreements, and/or
+by other laws and agreements pertaining to intellectual property. The user shall
+observe these rights.
+
+
+4 Fees
+------
+
+4.1 The user's use of the Service is subject to the payment of the agreed fee. A
+price list is available at
+https://console.ng.bluemix.net/catalog/services/car-diagnostic-api/
+
+4.2 Hella can adjust the fees by written notice to the user provided that Hella
+observes a notification period of at least one month. A fee adjustment effective
+during the first twelve months of this agreement shall be excluded.
+
+4.3 The fee shall be paid in advance for the applicable agreed term
+(month/year), subject to Hella providing the user with a corresponding invoice.
+Invoices shall be paid within 14 days from receipt.
+
+
+5 Liability for legal and material defects
+------------------------------------------
+
+5.1 Except as expressly stated in the Service description referred to in clause
+1, Hella does not provide any warranty or guarantee that the Service (i) is
+compatible with the user's hardware or software; (ii) will be fully available at
+all times or at any given time; (iii) will not cause any loss of data; (iv) is
+free of viruses, malware, malfunctions or other components which pose a security
+risk; (v) provides correct, complete or up to date information on, or
+translations of, error codes, or (vi) that the user's requirements or any other
+performance or functional requirements which are not agreed in this agreement
+will be fulfilled.
+
+5.2 The user acknowledges and accepts that the information provided by the
+Service may not always be correct or up-to-date (e.g., due to recent product
+changes). Hella accepts no liability for such incorrect or outdated information.
+
+5.3 When using the Service the user shall employ adequate, up-to date security
+measures (firewall, virus scanners, etc.).
+
+5.4 If the user detects a defect in the Service, it shall inform Hella of such
+defect without delay and describe the defect and the circumstances of its
+detection in reasonable detail. Hella shall attempt to remedy the defect within
+an appropriate period of time. If at least two attempts of Hella to remedy the
+defect have been unsuccessful and if the defect constitutes a material
+degradation of the Service, the user may request an adequate reduction of the
+fee for the relevant period or terminate this agreement. Any further claims of
+the user relating to the defect shall be excluded.
+
+5.5 No provision in these TCs shall exclude Hella's liability to the user for
+personal injury, wilful misconduct, fraudulent misrepresentation or other cases
+of mandatory liability which by law cannot be excluded.
+
+5.6 In cases of slight negligence resulting in a breach of material contractual
+responsibilities, Hella shall only be liable for damages that considering the
+nature of the Service were reasonably foreseeable upon the user's acceptance of
+these TCs.
+
+5.7 Hella's liability to the user for negligence shall in any calendar year in
+any event be limited to an amount equal to the total amount of fees paid by the
+user to Hella in such calendar year. Hella's unlimited liability pursuant to
+clause 5.5 shall remain unaffected.
+
+
+6 Indemnity
+-----------
+The user shall indemnify Hella, its managers, employees and subcontractors
+against all third party demands and claims as well as against all losses,
+damages, costs and expenses, including adequate legal fees, which arise from (i)
+the user using the Service not in compliance with these TCs or (ii) any
+infringement of statutory law or third party rights caused by the user during
+the use of the Service.
+
+
+7 Support and Updates
+---------------------
+Hella provides limited support as further described in the Service description
+referred to in clause 1. Hella provides Updates to the Service on a voluntary
+basis. Hella's obligation to remedy defects pursuant to clause 5 remains
+unaffected.
+
+
+8 Term and termination
+----------------------
+
+8.1 These TCs start to apply upon the user's first use of the Service and shall
+continue to apply until this agreement is terminated either by the user or Hella
+pursuant to this clause 8. The user may terminate this agreement either by
+providing Hella with a written termination notice with a notice period of one
+month or by ceasing to use the Service. Hella may terminate this agreement
+either by providing the user with a written termination notice with a notice
+period of three months or by ceasing to offer the Service in which case Hella
+will also provide the user with a three months advance notice.
+
+8.2 Either party's right to terminate this agreement for good cause shall remain
+unaffected.
+
+8.3 After this agreement has been terminated, the user shall cease using the
+Service and shall permanently delete all copies of components of the Service
+which are still installed on devices under his control.
+
+8.4 Hella reserves the right to completely or partially modify or suspend the
+Service at any time with a notice period of three months.
+
+
+9 Confidentiality and data protection
+-------------------------------------
+
+9.1 The user shall keep all information to which he gets access under this
+agreement and in the course of using the Service confidential for an unlimited
+period of time and shall only use such information for the purposes of this
+agreement. The user's right to use the human-readable information provided
+through the Service in accordance with the license in clause 3 shall remain
+unaffected.
+
+9.2 The user shall ensure that any potential transmission of personal data to
+Hella occurs in accordance with the applicable data protection laws.
+
+
+10 Miscellaneous
+----------------
+
+10.1 Elements of the Service or Hella website may contain hyperlinks to third
+party websites. Hella does not assume responsibility for the contents of these
+websites and Hella does not claim these websites and their contents as its own.
+
+10.2 If any provision of these TCs is found to be invalid or unenforceable, the
+validity and enforceability of the other provisions of these TCs shall not be
+affected. The invalid provision shall be replaced with the valid, enforceable
+provision which comes closest to the legal and commercial purpose intended by
+the parties and this provision shall apply retroactively.
+
+10.3 Retention or offsetting rights of the user shall only apply if the relevant
+counter claim of the user is undisputed or confirmed by a final court order.
+
+10.4 Any modifications or amendments of these TCs require the written form,
+including any amendments to this clause 10.3.
+
+10.5 This agreement shall be governed by German law with the exclusion of its
+conflict of law provisions and the United Nations Convention on Contracts for
+the International Sale of Goods. The courts competent for Lippstadt shall have
+exclusive jurisdiction over any disputes arising from or in relation to this
+agreement.
+
+
