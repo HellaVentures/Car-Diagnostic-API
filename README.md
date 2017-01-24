@@ -23,14 +23,14 @@ As a result of this call you get the following json object:
 
 Please feel free to try out this example call in your command line.
 
-For the example you specify the following input data:
+Input:
 - client_id: your username (required)
 - client_secret: your password (required)
 - code_id: the error code from the car (required)
 - vin: the first 11 digits of the vehicle identification number (required)
 - lang: the language the error code should be translated to (required)
 
-As an output of this call you get the following data:
+Output:
 - api_version: the current version of the API
 - timestamp: the Unix timestamp of the API-call
 - system: the system in the car where error is located
