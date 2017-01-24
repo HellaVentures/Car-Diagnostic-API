@@ -1,5 +1,40 @@
 # Car Diagnostic API - Documentation
 
+## 0. How to get started quickly
+The main functionality of the to translate error codes from a car into a form
+that everybody can understand. Here's an example call:
+
+``` shell
+curl --request GET --url 'https://api.eu.apiconnect.ibmcloud.com/hella-ventures-car-diagnostic-api/api/v1/dtc?client_id=8c0be540-4a9f-44ab-a7a9-4665e0c4c698&client_secret=P7sT3sK2qE2oL5aQ5nF0jH7xB3bO8cA2uB2kS0gM7bY8rL7lN5&code_id=P0001&vin=WBAES26C05D&language=EN' --header 'accept: application/json' --header 'content-type: application/json'
+```
+
+As a result of this call you get the following json object:
+``` json
+{"api_version":"1.1.0",
+ "timestamp":"1485273802071",
+ "dtc_data": {
+   "system":"fuel quantity controller",
+   "fault":"fault in electric circuit"
+   }
+}
+```
+
+Please feel free to try out this example call in your command line.
+
+For the example you specify the following input data:
+- client_id: your username (required)
+- client_secret: your password (required)
+- code_id: the error code from the car (required)
+- vin: the first 11 digits of the vehicle identification number (required)
+- lang: the language the error code should be translated to (required)
+
+As an output of this call you get the following data:
+- api_version: the current version of the API
+- timestamp: the Unix timestamp of the API-call
+- system: the system in the car where error is located
+- fault: the type of error in this system
+
+
 ## 1. Overview
 This API can help you to assess the health status of a vehicle, by translating
 OBD error codes in a human readable form. This service is of great interest for
@@ -40,8 +75,8 @@ To get up and running quickly with this service, follow these steps:
 4. Next, go to "Apps" and click on "Create new App".
 5. Enter a title for the App and a description (optional) and click on "Submit".
 6. Write down your Client Secret and your Client ID. These are the
-   username/password that you will use to access the API. Note that the Client
-   Secret is displayed only once on this page. The Client Secret is located at
+   username/password that you will use to access the API. **Note that the Client
+   Secret is displayed only once on this page.** The Client Secret is located at
    the top of the page and the Client ID on the bottom - you need to click the
    checkboxes to make them visible
 7. Go to "API Products" and click on the version of the "Car Diagnostic API"
@@ -51,11 +86,19 @@ To get up and running quickly with this service, follow these steps:
 8. Next, choose a plan and click on "Subscribe". In the next pop-up window
    select an App and click on "Subscribe".
 9. Go to the "Car Diagnostic API" section on the left side of this page. There
-   you can try out the API and get instructions on how to call the API - these
-   include the URL for calling the API. In addition you can find here coding
-   examples in different programming languages that exemplify how to call the
-   API. Note that the Client ID and Client Secret need to be passed to the API
-   as query parameters for authentication.
+   you can try out the API and get instructions on how to call the API  - these
+   include the URL for calling the API. If you want to make a test-call of the
+   API, you can go to the Operation "GET /dtc" and enter the following example
+   data:
+   
+   ![Example call /dtc](img/example_input.png)
+   
+   Note that you have to put in the your own Client secret, which you have
+   written down before.
+   In addition you can find here coding examples in different programming
+   languages that exemplify how to call the API. Note that the Client ID and
+   Client Secret need to be passed to the API as query parameters for
+   authentication. 
 
 When you go back to the initial Bluemix screen of the Car Diagnostic API, you
 can enter the Client ID and Client Secret in the corresponding fields. If you
