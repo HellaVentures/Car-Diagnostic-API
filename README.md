@@ -1,7 +1,7 @@
 # Car Diagnostic API - Documentation
 
 ## 0. How to get started quickly
-The main functionality of the to translate error codes from a car into a form
+The main functionality of the API is to translate error codes from a car into a form
 that everybody can understand. Here's an example call:
 
 ``` shell
